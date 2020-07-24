@@ -6,15 +6,17 @@ ARD ZDF Deutschlandradio - Zahlung der Rundfunkbeiträge
 
 This plugin returns 5 metadata labels/keys named as follows:
 
-* context - always set to 'ARD ZDF Deutschlandradio'
-* betrag - amount need to be paid
-* beitragsnummer - contract number
-* faellig_am - pay until date
-* datum - date when snail letter was sent
+* **context** - always set to 'ARD ZDF Deutschlandradio'
+* **betrag** - amount need to be paid
+* **beitragsnummer** - contract number
+* **faellig_am** - pay until date
+* **datum** - date when snail letter was sent
 
-* betrag is of type money (as per main app metadata types) with format \d+,\d+
-* betragsnummer is an ID (string) composed of 9 digits
-* both faellig_am and darum are of type date. Format dd.mm.yyyy
+Where:
+
+* **betrag** is of type money (as per main app metadata types) with format \d+,\d+
+* **betragsnummer** is an ID (string) composed of 9 digits
+* both **faellig_am** and **datum** are of type date. Format dd.mm.yyyy
 
 ![Deutschlandradio Example](./img/radio.png)
 
