@@ -3,8 +3,6 @@ ARD ZDF Deutschlandradio - Zahlung der Rundfunkbeiträge
 
 [Papermerge DMS](https://github.com/ciur/papermerge) metadata extractor plugin for ARD ZDF Rundfunkbeiträge service.
 
-![Deutschlandradio Example](./img/radio.png)
-
 
 This plugin returns 5 metadata labels/keys named as follows:
 
@@ -13,6 +11,13 @@ This plugin returns 5 metadata labels/keys named as follows:
 * beitragsnummer - contract number
 * faellig_am - pay until date
 * datum - date when snail letter was sent
+
+* betrag is of type money (as per main app metadata types) with format \d+,\d+
+* betragsnummer is an ID (string) composed of 9 digits
+* both faellig_am and darum are of type date. Format dd.mm.yyyy
+
+![Deutschlandradio Example](./img/radio.png)
+
 
 ## Installation
 
