@@ -1,9 +1,9 @@
 ARD ZDF Deutschlandradio - Zahlung der Rundfunkbeiträge
 =======================================================
 
-[Papermerge DMS](https://github.com/ciur/papermerge) metadata extractor plugin for ARD ZDF Rundfunkbeiträge services.
+[Papermerge DMS](https://github.com/ciur/papermerge) metadata extractor plugin for ARD ZDF Rundfunkbeiträge service.
 
-![Deutschlandradio Example](./img/deutschlandradio.png)
+![Deutschlandradio Example](./img/radio.png)
 
 
 This plugin returns 5 metadata labels/keys named as follows:
